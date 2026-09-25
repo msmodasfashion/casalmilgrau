@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASALMILGRAU | Guia de Tamanhos</title>
+    <style>
+        :root {
+            --bg-deep: #0a0a0a;
+            --bg-card: #141414;
+            --gold: #d4af37;
+            --gold-light: #f3e5ab;
+            --gold-gradient: linear-gradient(135deg, #bf953f 0%, #fcf6ba 25%, #b38728 50%, #fbf5b7 75%, #aa771c 100%);
+            --text-main: #ffffff;
+            --text-muted: #a0a0a0;
+            --border-color: rgba(212, 175, 55, 0.2);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-main);
+            font-family: system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .gold-text {
+            background: var(--gold-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        header {
+            background: rgba(10, 10, 10, 0.95);
+            border-bottom: 1px solid var(--border-color);
+            padding: 20px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            background: var(--gold-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 10px;
+            color: var(--gold);
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+
+        .back-link:hover {
+            color: var(--gold-light);
+        }
+
+        main {
+            padding: 60px 0;
+        }
+
+        .page-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .page-title h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .page-title p {
+            color: var(--text-muted);
+            font-size: 1rem;
+        }
+
+        .section-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 40px;
+        }
+
+        .section-box h2 {
+            font-size: 1.5rem;
+            color: var(--gold);
+            margin-bottom: 20px;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        th, td {
+            padding: 15px;
+            border: 1px solid rgba(212, 175, 55, 0.15);
+            font-size: 0.95rem;
+        }
+
+        th {
+            background: rgba(212, 175, 55, 0.1);
+            color: var(--gold);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        td {
+            color: var(--text-muted);
+        }
+
+        td:first-child {
+            color: var(--text-main);
+            font-weight: 600;
+        }
+
+        .notice {
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid var(--gold);
+            padding: 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 40px 0;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        .help-center {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .btn-gold {
+            background: var(--gold-gradient);
+            color: #000;
+            font-weight: 700;
+            padding: 14px 32px;
+            border-radius: 4px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            border: none;
+            cursor: pointer;
+            transition: var(--transition);
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2);
+        }
+
+        .btn-gold:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+        }
+
+        @media (max-width: 768px) {
+            .page-title h1 {
+                font-size: 2rem;
+            }
+            .section-box {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">CASALMILGRAU</div>
+            <a href="casalmilgrau_index.html" class="back-link">← Voltar para o site principal</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="page-title">
+            <h1 class="gold-text">Guia de Tamanhos</h1>
+            <p>Consulte as medidas e encontre o tamanho ideal para o seu estilo.</p>
+        </div>
+
+        <!-- Feminino -->
+        <div class="section-box">
+            <h2>Feminino</h2>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tamanho</th>
+                            <th>Busto</th>
+                            <th>Cintura</th>
+                            <th>Quadril</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>PP</td><td>—</td><td>—</td><td>—</td></tr>
+                        <tr><td>P</td><td>—</td><td>—</td><td>—</td></tr>
+                        <tr><td>M</td><td>—</td><td>—</td><td>—</td></tr>
+                        <tr><td>G</td><td>—</td><td>—</td><td>—</td></tr>
+                        <tr><td>GG</td><td>—</td><td>—</td><td>—</td></tr>
+                        <tr><td>G+</td><td>—</td><td>—</td><td>—</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Masculino -->
+        <div class="section-box">
+            <h2>Masculino</h2>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tamanho</th>
+                            <th>Tórax</th>
+                            <th>Cintura</th>
+                            <th>Comprimento</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>PP</td><td>—</td><td>—</td><td>—</td></tr>
+                        <tr><td>P</td><td>—</td><td>—</td><td>—</td></tr>
+                        <tr><td>M</td><td>—</td><td>—</td><td>—</td></tr>
+                        <tr><td>G</td><td>—</td><td>—</td><td>—</td></tr>
+                        <tr><td>GG</td><td>—</td><td>—</td><td>—</td></tr>
+                        <tr><td>G+</td><td>—</td><td>—</td><td>—</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="notice">
+            <p><strong>Atenção:</strong> As medidas podem variar conforme o modelo da peça. Se tiver dúvidas sobre o tamanho, fale conosco pelo WhatsApp.</p>
+        </div>
+
+        <div class="help-center">
+            <a href="https://wa.me/5512991362201?text=Olá!%20Tenho%20dúvidas%20sobre%20o%20tamanho%20ideal%20para%20mim%20na%20CasalMilGrau.%20Pode%20me%20ajudar?" target="_blank" class="btn-gold">
+                Precisa de ajuda com o tamanho?
+            </a>
+        </div>
+    </main>
+
+</body>
+</html>
